@@ -33,9 +33,7 @@
 }
 
 -(void)createLabel
-{
-    NSLog(@"2222%@",self.m_currentTime);
-    
+{    
     self.label = [[UILabel alloc]init];
     [self.label setFrame:CGRectMake(0, 0, 375, 80)];
     [self.label setNumberOfLines:0];

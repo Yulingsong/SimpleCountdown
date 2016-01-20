@@ -15,6 +15,7 @@
 		18AC4EB01C4CE2CB00D20D43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AC4EAE1C4CE2CB00D20D43 /* LaunchScreen.storyboard */; };
 		18AC4EBB1C4CE2CB00D20D43 /* _Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC4EBA1C4CE2CB00D20D43 /* _Tests.m */; };
 		18AC4EC61C4CE2CB00D20D43 /* _UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC4EC51C4CE2CB00D20D43 /* _UITests.m */; };
+		18AC4EDB1C4CE4BC00D20D43 /* UIView+YLSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC4EDA1C4CE4BC00D20D43 /* UIView+YLSView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		18AC4EC11C4CE2CB00D20D43 /* 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AC4EC51C4CE2CB00D20D43 /* _UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _UITests.m; sourceTree = "<group>"; };
 		18AC4EC71C4CE2CB00D20D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AC4ED91C4CE4BC00D20D43 /* UIView+YLSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YLSView.h"; sourceTree = "<group>"; };
+		18AC4EDA1C4CE4BC00D20D43 /* UIView+YLSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YLSView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				18AC4EA41C4CE2CB00D20D43 /* AppDelegate.m */,
 				18AC4EA61C4CE2CB00D20D43 /* ViewController.h */,
 				18AC4EA71C4CE2CB00D20D43 /* ViewController.m */,
+				18AC4ED91C4CE4BC00D20D43 /* UIView+YLSView.h */,
+				18AC4EDA1C4CE4BC00D20D43 /* UIView+YLSView.m */,
 				18AC4EA91C4CE2CB00D20D43 /* Main.storyboard */,
 				18AC4EAC1C4CE2CB00D20D43 /* Assets.xcassets */,
 				18AC4EAE1C4CE2CB00D20D43 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				18AC4EA81C4CE2CB00D20D43 /* ViewController.m in Sources */,
 				18AC4EA51C4CE2CB00D20D43 /* AppDelegate.m in Sources */,
+				18AC4EDB1C4CE4BC00D20D43 /* UIView+YLSView.m in Sources */,
 				18AC4EA21C4CE2CB00D20D43 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
